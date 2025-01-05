@@ -1,0 +1,55 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.container {
+  display:flex;
+  justify-content: space-evenly;
+  text-align: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.container-column {
+  display:flex;
+  justify-content: space-evenly;
+  text-align: center;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.icon-link {
+  border-bottom: 3px solid transparent;
+  transition: all 0.25s;
+  width: 75px;
+  padding: 10px;
+}
+
+.icon-link:hover {
+  border-bottom: 3px solid white;
+  transition: all 0.25s;
+  translate: 0 -10px;
+}
+
+.menu-option {
+  transition: all 0.25s;
+  border-bottom: 1px solid transparent;
+  cursor: pointer;
+}
+
+.menu-option:hover {
+  translate: 8px 0;
+  border-bottom: 1px solid white;
+}
+
+.menu-option-selected {
+  transition: all 0.25s;
+  border-bottom: 1px solid white;
+  cursor:default;
+}
+
+.centered-header {
+  text-align: center;
+}
